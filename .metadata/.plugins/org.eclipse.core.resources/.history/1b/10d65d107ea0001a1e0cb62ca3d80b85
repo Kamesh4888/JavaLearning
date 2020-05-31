@@ -1,0 +1,9 @@
+package program27;
+
+public class Dog {
+	public String name;
+	 
+    public void bark() {
+        System.out.print("Gow Gow!");
+    }
+}

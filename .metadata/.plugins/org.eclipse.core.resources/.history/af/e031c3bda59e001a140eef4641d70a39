@@ -1,0 +1,27 @@
+//String builders and string formatters
+
+package program21;
+
+public class pgm21 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String text;
+		
+		text = "Hi";
+		text+="Hello";
+		text += "This is Kamesh";
+		System.out.println(text);
+		
+		//String info;
+		//Info info=new Info();
+	StringBuilder info = new StringBuilder();
+	
+	info.append("Welcome");
+	info.append("This is practice");
+	
+
+	}
+
+}

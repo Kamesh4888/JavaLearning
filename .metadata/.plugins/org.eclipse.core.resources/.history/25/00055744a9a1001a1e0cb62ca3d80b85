@@ -1,0 +1,41 @@
+//Checked exceptions
+/*package program38;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class Example {
+	public static void main(String args[]) 
+	   {
+	FileInputStream fis = null;
+	/*This constructor FileInputStream(File filename)
+	 * throws FileNotFoundException which is a checked
+	 * exception
+         */
+      /*  try 
+        {
+			fis = new FileInputStream("B:/myfile.txt");
+		} 
+        catch (FileNotFoundException e)
+        {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
+	//int k; 
+
+	/* Method read() of FileInputStream class also throws 
+	 * a checked exception: IOException
+         */
+	/*try {
+		while(( k = fis.read() ) != -1) 
+		{ 
+			System.out.print((char)k); 
+		}
+	} catch (IOException e1) {
+		// TODO Auto-generated catch block
+		e1.printStackTrace();
+	} */
+
+	   }
+}

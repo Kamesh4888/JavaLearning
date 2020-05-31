@@ -1,0 +1,16 @@
+package program27;
+
+public class Plant {
+public String name;
+
+public final static int ID=8;
+
+//protected String size= "small"
+
+//private String type;
+//this.type="Plant";
+
+public Plant() {
+	this.name ="Freddy";
+}
+}

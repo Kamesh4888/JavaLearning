@@ -1,0 +1,33 @@
+//to String method
+package program22;
+
+//import java.io.*; 
+import java.util.*; 
+
+public class pgm22 {
+	
+
+	public static void main(String[] args) {
+		
+		boolean[] boolArr = new boolean[] { true, true, false, true }; 
+        byte[] byteArr = new byte[] { 10, 20, 30 }; 
+        char[] charArr = new char[] { 'g', 'e', 'e', 'k', 's' }; 
+        int[] intArr = new int[] { 1, 2, 3, 4 }; 
+        
+        System.out.println("Boolean Array \t" +Arrays.toString(boolArr)); 
+        System.out.println("Byte array \t" +Arrays.toString(byteArr)); 
+        System.out.println("Character array \t" +Arrays.toString(charArr));  
+        System.out.println("Integer array \t" +Arrays.toString(intArr)); 
+		
+        Integer a=12;
+        Integer b=37;
+       
+        String str1=a.toString();
+        String str2 =b.toString();
+              
+        System.out.println(str1);
+        System.out.println(str2);
+
+	}
+
+}

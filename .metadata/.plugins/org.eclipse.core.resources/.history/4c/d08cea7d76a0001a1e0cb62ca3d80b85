@@ -1,0 +1,8 @@
+
+public class vehicle extends machine {
+
+public void vehicleColor () {
+	System.out.println("My vehicle is red");
+}
+
+}

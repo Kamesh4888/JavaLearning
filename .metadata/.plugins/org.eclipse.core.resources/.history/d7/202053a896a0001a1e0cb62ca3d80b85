@@ -1,0 +1,11 @@
+package program27;
+
+public class Plant {
+public String name;
+
+public final static int ID =8;
+
+public Plant() {
+	this.name ="Freddy";
+}
+}

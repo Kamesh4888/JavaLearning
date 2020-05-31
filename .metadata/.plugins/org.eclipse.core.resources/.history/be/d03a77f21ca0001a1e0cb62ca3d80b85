@@ -1,0 +1,24 @@
+//to String method
+
+
+package program22;
+
+
+public class pgm22 {
+
+	public String toString()
+	{
+		return "Hello  using to string method";
+	}
+
+	public static void main(String[] args) {
+		
+		//Frog frog1= new Frog();
+		
+	//	System.out.println(frog1);
+		
+		
+
+	}
+
+}

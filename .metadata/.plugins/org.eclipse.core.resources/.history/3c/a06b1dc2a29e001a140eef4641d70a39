@@ -1,0 +1,20 @@
+//Static and final keyword
+public class pgm20 {
+	int age;
+	String name;
+	
+	static int section = 5;
+	
+	
+	static int marks()
+	{
+		System.out.println("Marks in english" +section);
+		return section;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Student stu1 = new Student();
+
+	}
+
+}
